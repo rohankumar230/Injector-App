@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <color name="colorRed">#FF1500</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorBlue">#E49542</color>
+  
+    
+	<color name="colorPrimary">#E49542</color>
+       <color name="colorWhite">#ffffff</color>
+	<color name="colorPrimaryDark">#E49542</color>
+	<color name="colorAccent">#E49542</color>
+	<color name="dark">#030B17</color>
+	<color name="pejo">#FFFFFF</color>
+	<color name="kontol">#FF22272B</color>
+	<color name="memek">#FF2D343C</color>
+	<color name="colorControlHighlight">#E49542</color>
+	<color name="colorControlNormal">#E49542</color>
+	<color name="dark2">#071832</color>
+	<color name="grey">#BD818181</color>
+	<color name="tai">#E49542</color>
+	<color name="install">#E49542</color>
+	<color name="uninstall">#ffc51162</color>
+	
+</resources>

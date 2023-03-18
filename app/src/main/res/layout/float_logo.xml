@@ -1,0 +1,3117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<RelativeLayout
+			android:id="@+id/relativeLayoutParent"
+			android:orientation="vertical"
+			android:padding="0.0dp"
+			android:visibility="visible"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<ImageView
+				android:id="@+id/floatLogo"
+				android:layout_width="40.0dp"
+				android:layout_height="40.0dp"
+				android:src="@drawable/icon"
+				android:scaleType="fitCenter"/>
+		</RelativeLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:id="@+id/espView"
+			android:background="@drawable/bg_menu"
+			android:visibility="gone"
+			android:layout_width="300dp"
+			android:layout_height="400.0dp"
+			android:alpha="1.0">
+
+			<RelativeLayout
+				android:orientation="horizontal"
+				android:background="@drawable/bg_buttontext"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				
+				<LinearLayout
+					
+					android:layout_width="280.0dp"
+					android:layout_height="45.0dp"
+					android:orientation="horizontal">
+				
+				<ImageView
+					android:id="@+id/floatLogo"
+					android:layout_width="40.0dp"
+					android:layout_height="40.0dp"
+					android:src="@drawable/icon"
+					android:scaleType="fitCenter"/>
+
+				<TextView
+					android:textAppearance="?android:textAppearanceMedium"
+					android:textStyle="bold|italic"
+					android:textColor="#FFFFFF"
+					android:gravity="center_vertical"
+					android:id="@+id/textView4"
+					android:textSize="30dp"
+					android:layout_width="match_parent"
+					android:layout_height="43.0dp"
+					android:layout_marginTop="0.0dp"
+					android:layout_marginBottom="0.0dp"
+					android:layout_marginStart="25.0dp"
+					android:layout_marginEnd="10.0dp"/>
+			</LinearLayout>
+
+				<LinearLayout
+					android:gravity="center"
+					android:orientation="vertical"
+					android:padding="5.0dp"
+					android:focusable="true"
+					android:clickable="true"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:foreground="?android:selectableItemBackground"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true">
+
+					<ImageView
+						android:id="@+id/closeBtn"
+						android:layout_width="30.0dp"
+						android:layout_height="30.0dp"
+						android:layout_marginRight="1.0dp"
+						android:src="@drawable/ic_close_box"/>
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<HorizontalScrollView
+					android:visibility="visible"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+						    android:id="@+id/bg_menu_1"
+							android:layout_width="80dp"
+							android:layout_height="45dp"
+							android:gravity="center">
+
+							<Button
+								android:layout_width="60dp"
+								android:layout_height="35dp"
+								android:text="Player"
+								android:textSize="14sp"
+								android:id="@+id/menu_1"
+							    android:layout_marginRight="5dp"
+								android:background="@drawable/shoot"
+								android:textColor="@color/kontol"
+							/>
+
+						</LinearLayout>
+
+						<LinearLayout
+						    android:id="@+id/bg_menu_2"
+							android:layout_width="80dp"
+							android:layout_height="45dp"
+							android:gravity="center">
+
+							<Button
+								android:layout_width="60dp"
+								android:layout_height="35dp"
+								android:text="Item"
+								android:textSize="14sp"
+								android:id="@+id/menu_2"
+							    android:layout_marginRight="5dp"
+								android:background="@drawable/shoot"
+								android:textColor="@color/kontol"
+							/>
+							
+						</LinearLayout>
+
+						<LinearLayout
+						    android:id="@+id/bg_menu_3"
+							android:layout_width="80dp"
+							android:layout_height="45dp"
+							android:gravity="center">
+
+							<Button
+								android:layout_width="60dp"
+								android:layout_height="35dp"
+								android:text="Vehicle"
+								android:textSize="14sp"
+								android:id="@+id/menu_3"
+							    android:layout_marginRight="5dp"
+								android:background="@drawable/shoot"
+								android:textColor="@color/kontol"
+							/>
+
+						</LinearLayout>
+						
+						<LinearLayout
+						    android:id="@+id/bg_menu_4"
+							android:layout_width="80dp"
+							android:layout_height="45dp"
+							android:gravity="center">
+
+							<Button
+								android:layout_width="60dp"
+								android:layout_height="35dp"
+								android:text="Aimbot"
+								android:textSize="14sp"
+								android:id="@+id/menu_4"
+							    android:layout_marginRight="5dp"
+								android:background="@drawable/shoot"
+								android:textColor="@color/kontol"
+							/>
+
+						
+
+						</LinearLayout>
+						
+						<LinearLayout
+						    android:id="@+id/bg_menu_5"
+							android:layout_width="80dp"
+							android:layout_height="45dp"
+							android:gravity="center">
+
+							<Button
+								android:layout_width="60dp"
+								android:layout_height="35dp"
+								android:text="Sdk"
+								android:textSize="14sp"
+								android:id="@+id/menu_5"
+							    android:layout_marginRight="5dp"
+								android:background="@drawable/shoot"
+								android:textColor="@color/kontol"
+							/>
+
+						</LinearLayout>
+								
+						<LinearLayout
+						    android:id="@+id/bg_menu_6"
+							android:layout_width="80dp"
+							android:layout_height="45dp"
+							android:gravity="center">
+
+							<Button
+								android:layout_width="60dp"
+								android:layout_height="35dp"
+								android:text="Setting"
+								android:textSize="14sp"
+								android:id="@+id/menu_6"
+							    android:layout_marginRight="5dp"
+								android:background="@drawable/shoot"
+								android:textColor="@color/kontol"
+							/>
+
+						</LinearLayout>
+						
+
+					</LinearLayout>
+					
+
+				</HorizontalScrollView>
+			
+
+				<ScrollView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:id="@+id/Player"
+							android:padding="10.0dp"
+							android:visibility="visible"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+							
+							<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="PROTECTION MENU"
+										android:textAlignment="gravity"
+										android:textStyle="bold"
+										android:textSize="15dp"
+										android:textColor="#FFFFFF" />
+							
+							<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/bypass"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Logo Bypass"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Activate At Krafton Logo"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+										
+								
+							<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/spawn"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Spawn Bypass"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Activate on Spawn Island"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+										
+										
+			      			
+										
+									
+										
+										
+										
+										<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="ESP MENU"
+										android:textAlignment="gravity"
+										android:textStyle="bold"
+										android:textSize="15dp"
+										android:textColor="#FFFFFF" />
+										<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/isESP"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Enable Esp"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Activate this switch after reaching spawn"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+							
+							<TextView
+								android:textSize="16.0dp"
+								android:textColor="#FFFFFF"
+								android:gravity="center_vertical"
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent"
+								android:text="Render framerate"
+								android:textAlignment="gravity"/>
+
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="40dp"
+								android:orientation="horizontal">
+
+								<SeekBar
+									android:id="@+id/fps"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									style="@style/custom_seekbar"
+									android:max="400"
+									android:progress="200" />
+
+							</LinearLayout>
+							
+							
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Box display mode"
+								android:textSize="14sp"
+								android:textColor="#FFFFFF"/>
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Show box of the player models"
+								android:textSize="12sp"
+								android:textColor="#FFFFFF"/>
+							
+							<RadioGroup
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:orientation="horizontal">
+								
+								<RadioButton
+									android:id="@+id/boxOFF"
+									android:checked="true"
+									android:textSize="14sp"
+									android:layout_width="100dp"
+									android:layout_height="wrap_content"
+									android:text="Off"
+									android:textColor="#FFFFFF"/>
+								<RadioButton
+									android:id="@+id/isBox"
+									android:textSize="14sp"
+									android:layout_width="100dp"
+									android:layout_height="wrap_content"
+									android:text="Legacy"
+									android:textColor="#FFFFFF"/>
+								<RadioButton
+									android:id="@+id/isBoxFill"
+									android:textSize="14sp"
+									android:layout_width="100dp"
+									android:layout_height="wrap_content"
+									android:text="Precise"
+									android:textColor="#FFFFFF"/>
+								
+							</RadioGroup>
+							
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Bounding radar line"
+								android:textSize="14sp"
+								android:textColor="#FFFFFF"/>
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Show radar line of the player models"
+								android:textSize="12sp"
+								android:textColor="#FFFFFF"/>
+							
+							<HorizontalScrollView
+								android:visibility="visible"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content">
+							
+							<RadioGroup
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:orientation="horizontal">
+								
+								<RadioButton
+									android:id="@+id/lineOFF"
+									android:checked="true"
+									android:textSize="14sp"
+									android:layout_width="100dp"
+									android:layout_height="wrap_content"
+									android:text="Off"
+									android:textColor="#FFFFFF"/>
+								<RadioButton
+									android:id="@+id/isLineTop"
+									android:textSize="14sp"
+									android:layout_width="100dp"
+									android:layout_height="wrap_content"
+									android:text="Top"
+									android:textColor="#FFFFFF"/>
+								<RadioButton
+									android:id="@+id/isLineMiddle"
+									android:textSize="14sp"
+									android:layout_width="100dp"
+									android:layout_height="wrap_content"
+									android:text="Middle"
+									android:textColor="#FFFFFF"/>
+								<RadioButton
+									android:id="@+id/isLineBottom"
+									android:textSize="14sp"
+									android:layout_width="100dp"
+									android:layout_height="wrap_content"
+									android:text="Bottom"
+									android:textColor="#FFFFFF"/>
+							</RadioGroup>
+							</HorizontalScrollView>
+							<TextView
+								android:textSize="16.0dp"
+								android:textColor="#FFFFFF"
+								android:gravity="center_vertical"
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent"
+								android:text="Esp Generic Adjutment"
+								android:textAlignment="gravity"/>
+
+							<LinearLayout
+								android:orientation="horizontal"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<LinearLayout
+									android:orientation="vertical"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content">
+
+												
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/isName"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:text="Name"
+										android:buttonTint="#ADD8E6"/>
+									
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Show name of the player models"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>	
+									
+
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:theme="@style/shootstyle"
+										android:id="@+id/isDist"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:text="Distance"
+										android:buttonTint="#ADD8E6"/>
+									
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Show distance between you and players"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+									
+									
+
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/isHealth"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										android:text="Health"
+										android:buttonTint="#ADD8E6"/>
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Show Health of the player models"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+									
+
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/isEnemyWeapon"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										android:text="Weapons"
+										android:buttonTint="#ADD8E6"/>
+									
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Show weapon used by player models"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+
+									
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/isHead"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										android:text="Head"
+										android:buttonTint="#ADD8E6"/>
+									
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Show head of the player models"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+									
+									
+									
+
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/isSkelton"
+										android:theme="@style/shootstyle"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										android:text="Skeleton"
+										android:buttonTint="#ADD8E6"/>
+									
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Show x ray of the player models"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/isBack"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										android:text="360° Alert"
+										android:buttonTint="#ADD8E6"/>
+									
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Show alerts of player location"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+
+
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:theme="@style/shootstyle"
+										android:id="@+id/isGrenadeWarning"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										android:text="Grenade Warning"
+										android:buttonTint="#ADD8E6"/>
+									
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Show the grenade alert"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+
+								</LinearLayout>
+								
+
+							</LinearLayout>
+
+							
+
+						</LinearLayout>
+						
+						
+						
+						
+						
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:id="@+id/Aimbot"
+							android:padding="10.0dp"
+							android:visibility="gone"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+							<ScrollView
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent">
+								<LinearLayout
+									android:orientation="vertical"
+									android:id="@+id/Aimbot1"
+									android:padding="8.0dip"
+									android:layout_width="fill_parent"
+									android:layout_height="fill_parent">
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Aimbot mode"
+										android:textAlignment="gravity"
+										android:textStyle="bold"
+										android:textSize="15dp"
+										android:textColor="#FFFFFF" />
+									<TableLayout
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+											
+											<CheckBox
+												android:id="@+id/aimbot"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:theme="@style/myBtn"
+												android:textStyle="bold"
+												
+												android:text="Aimbot FOV"
+												android:textColor="#FFFFFF" />
+										</TableRow>
+									</TableLayout>
+									<TableLayout
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+											<CheckBox
+												android:id="@+id/aimknocked"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:theme="@style/myBtn"
+												android:textStyle="bold"
+												android:layout_toLeftOf="@+id/view"
+												android:text="Ignore knocked put player"
+												android:textColor="#FFFFFF" />
+										</TableRow>
+									</TableLayout>
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Aimbot FOV"
+										android:textAlignment="gravity"
+										android:textStyle="bold"
+										android:textSize="15dp"
+										android:textColor="#FFFFFF" />
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Only aim at enemies by within the range"
+										android:textStyle="bold"
+										android:textSize="12dp"
+										android:textColor="#FFFFFF" />
+									<LinearLayout
+										android:orientation="horizontal"
+										android:layout_width="fill_parent"
+										android:layout_height="30dp">
+										<SeekBar
+											android:id="@+id/range"
+											android:layout_width="match_parent"
+											android:layout_height="match_parent"
+											android:max="1500"
+											style="@style/custom_seekbar"
+											android:progress="400"/>
+									</LinearLayout>
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Lock aimbot button position"
+										android:textAlignment="gravity"
+										android:textStyle="bold"
+										android:textSize="15dp"
+										android:textColor="#FFFFFF" />
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Aim at body part"
+										android:textStyle="bold"
+										android:textSize="12dp"
+										android:textColor="#FFFFFF" />
+									<RadioGroup
+										android:id="@+id/aimbotmode"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginLeft="15dp">
+										<RadioButton
+											android:id="@+id/radioButton"
+											android:layout_width="match_parent"
+											android:layout_height="wrap_content"
+											android:layout_weight="1"
+											android:checked="true"
+											android:theme="@style/myBtn"
+											android:textStyle="bold"
+											android:tag="1"
+											android:text="Head"
+											android:textColor="#FFFFFF" />
+										<RadioButton
+											android:id="@+id/radioButton2"
+											android:layout_width="match_parent"
+											android:layout_height="wrap_content"
+											android:theme="@style/myBtn"
+											android:textStyle="bold"
+											android:tag="2"
+											android:text="Chest"
+											android:textColor="#FFFFFF" />
+										<RadioButton
+											android:id="@+id/radioButton3"
+											android:layout_width="match_parent"
+											android:layout_height="wrap_content"
+											android:layout_weight="3"
+											android:theme="@style/myBtn"
+											android:textStyle="bold"
+											android:tag="3"
+											android:text="Stomach"
+											android:textColor="#FFFFFF" />
+									</RadioGroup>
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Target selection mode"
+										android:textAlignment="gravity"
+										android:textStyle="bold"
+										android:textSize="15dp"
+										android:textColor="#FFFFFF" />
+									<RadioGroup
+										android:id="@+id/aimby"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginLeft="15dp">
+										<RadioButton
+											android:id="@+id/radioButton9"
+											android:layout_width="match_parent"
+											android:layout_height="wrap_content"
+											android:layout_weight="1"
+											android:theme="@style/myBtn"
+											android:textStyle="bold"
+											android:checked="true"
+											android:tag="1"
+											android:text="Crosshair priority"
+											android:textColor="#FFFFFF" />
+										<RadioButton
+											android:id="@+id/radioButton4"
+											android:layout_width="match_parent"
+											android:layout_height="wrap_content"
+											android:theme="@style/myBtn"
+											android:textStyle="bold"
+											android:tag="0"
+											android:text="Distance priority"
+											android:textColor="#FFFFFF" />
+									</RadioGroup>
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Aimbot Toggle Mode"
+										android:textAlignment="gravity"
+										android:textStyle="bold"
+										android:textSize="15dp"
+										android:textColor="#FFFFFF" />
+									<RadioGroup
+										android:id="@+id/aimwhen"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginLeft="15dp">
+										<RadioButton
+											android:id="@+id/radioButton6"
+											android:layout_width="match_parent"
+											android:layout_height="wrap_content"
+											android:theme="@style/myBtn"
+											android:textStyle="bold"
+											android:tag="1"
+											android:text="ADS"
+											android:checked="true"
+											android:textColor="#FFFFFF" />
+										<RadioButton
+											android:id="@+id/radioButton7"
+											android:layout_width="match_parent"
+											android:layout_height="wrap_content"
+											android:theme="@style/myBtn"
+											android:textStyle="bold"
+											android:tag="2"
+											android:text="Firing"
+											android:textColor="#FFFFFF" />
+										<RadioButton
+											android:id="@+id/firingAds"
+											android:layout_width="match_parent"
+											android:layout_height="wrap_content"
+											android:theme="@style/myBtn"
+											android:textStyle="bold"
+											android:tag="3"
+											android:text="Firing and ADS"
+											android:textColor="#FFFFFF" />
+									</RadioGroup>
+									
+								</LinearLayout>
+							</ScrollView>
+
+						</LinearLayout>
+						
+						
+						
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:id="@+id/Setting"
+							android:padding="10.0dp"
+							android:visibility="gone"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+							<ScrollView
+								android:id="@+id/vscroll5"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent">
+								<LinearLayout
+									android:orientation="vertical"
+									android:id="@+id/settings1"
+									android:padding="8.0dip"
+									android:layout_width="fill_parent"
+									android:layout_height="fill_parent">
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="ESP Items Adjustment"
+										android:textAlignment="gravity"
+										android:textStyle="bold"
+										android:textSize="15dp"
+										android:textColor="#FFFFFF" />
+									<TableLayout
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+											<CheckBox
+												android:id="@+id/meterial"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:theme="@style/myBtn"
+												android:textStyle="bold"
+												android:layout_toLeftOf="@+id/view"
+												android:text="Icon"
+												android:textColor="#FFFFFF" />
+										</TableRow>
+									</TableLayout>
+									<TableLayout
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+											<CheckBox
+												android:id="@+id/dual"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:theme="@style/myBtn"
+												android:textStyle="bold"
+												android:layout_toRightOf="@+id/view"
+												android:text="Icon Distance Name"
+												android:textColor="#FFFFFF" />
+										</TableRow>
+									</TableLayout>
+									<TableLayout
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+											<CheckBox
+												android:id="@+id/meterialdistance"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:theme="@style/myBtn"
+												android:textStyle="bold"
+												android:layout_below="@id/dual"
+												android:layout_toLeftOf="@+id/view"
+												android:text="Icon Distance"
+												android:textColor="#FFFFFF" />
+										</TableRow>
+									</TableLayout>
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="World View Adjustment"
+										android:textAlignment="gravity"
+										android:textStyle="bold"
+										android:textSize="15dp"
+										android:textColor="#FFFFFF" />
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Adjust Name Size"
+										android:textStyle="bold"
+										android:textSize="12dp"
+										android:textColor="#FFFFFF" />
+									<LinearLayout
+										android:layout_width="match_parent"
+										android:layout_height="20dp"
+										android:layout_marginLeft="10dp"
+										android:layout_marginTop="10dp"
+										android:layout_toLeftOf="@+id/batasView"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/SizeText"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:gravity="center_vertical"
+											android:text="0"
+											android:textAlignment="gravity"
+											android:textColor="#FFFFFF" />
+										<SeekBar
+											android:id="@+id/Size"
+											android:layout_width="match_parent"
+											android:layout_height="match_parent"
+											style="@style/custom_seekbar"
+											android:max="10"
+											android:progress="200" />
+									</LinearLayout>
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Adjust Name Position"
+										android:textStyle="bold"
+										android:textSize="12dp"
+										android:textColor="#FFFFFF" />
+									<LinearLayout
+										android:layout_width="match_parent"
+										android:layout_height="20dp"
+										android:layout_marginLeft="10dp"
+										android:layout_marginTop="10dp"
+										android:layout_toRightOf="@id/batasView"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/positionText"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:gravity="center_vertical"
+											android:text="0"
+											android:textAlignment="gravity"
+											android:textColor="#FFFFFF" />
+										<SeekBar
+											android:id="@+id/position"
+											android:layout_width="match_parent"
+											android:layout_height="match_parent"
+											style="@style/custom_seekbar"
+											android:max="150"
+											android:progress="200" />
+									</LinearLayout>
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Adjust Item Size"
+										android:textStyle="bold"
+										android:textSize="12dp"
+										android:textColor="#FFFFFF" />
+									<LinearLayout
+										android:layout_width="match_parent"
+										android:layout_height="20dp"
+										android:layout_below="@+id/SizeJudul"
+										android:layout_marginLeft="10dp"
+										android:layout_marginTop="10dp"
+										android:layout_toLeftOf="@+id/view"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/itemSizeText"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:gravity="center_vertical"
+											android:text="0"
+											android:textAlignment="gravity"
+											android:textColor="#FFFFFF" />
+										<SeekBar
+											android:id="@+id/itemSize"
+											android:layout_width="match_parent"
+											android:layout_height="match_parent"
+											style="@style/custom_seekbar"
+											android:max="10"
+											android:progress="200" />
+									</LinearLayout>
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="match_parent"
+										android:gravity="center_vertical"
+										android:text="Adjust Item Position"
+										android:textStyle="bold"
+										android:textSize="12dp"
+										android:textColor="#FFFFFF" />
+									<LinearLayout
+										android:layout_width="match_parent"
+										android:layout_height="20dp"
+										android:layout_below="@+id/SizeJudul"
+										android:layout_marginLeft="10dp"
+										android:layout_marginTop="10dp"
+										android:layout_toRightOf="@+id/view"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/itemPositionText"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:gravity="center_vertical"
+											android:text="0"
+											android:textAlignment="gravity"
+											android:textColor="#FFFFFF" />
+										<SeekBar
+											android:id="@+id/itemPosition"
+											android:layout_width="match_parent"
+											android:layout_height="match_parent"
+											style="@style/custom_seekbar"
+											android:max="50"
+											android:progress="200" />
+									</LinearLayout>
+								</LinearLayout>
+							</ScrollView>
+						</LinearLayout>
+						
+						
+						<LinearLayout
+							android:orientation="vertical"
+							android:id="@+id/Item"
+							android:padding="10.0dp"
+							android:visibility="gone"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+							<ScrollView
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent">
+								<LinearLayout
+									android:orientation="vertical"
+									android:id="@+id/GRAPHICS"
+									android:padding="8.0dip"
+									android:layout_width="fill_parent"
+									android:layout_height="fill_parent">
+
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/special"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Special Items"/>
+
+									<TableLayout
+										android:id="@+id/specialTab"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/FlareGun"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Flare Gun"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/GullieSuit"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Ghillie Suitt"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/AirDrop"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="AirDrop"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/DropPlane"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="DropPlane"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<CheckBox
+											android:textColor="#FFFFFF"
+											android:id="@+id/Crate"
+											android:layout_width="match_parent"
+											android:layout_height="match_parent"
+											android:text="Crate"
+											android:buttonTint="#ADD8E6"/>
+
+									</TableLayout>
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/scopes"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Scopes"/>
+
+									<HorizontalScrollView
+										android:scrollbars="horizontal|vertical"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content">
+
+										<LinearLayout
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content">
+
+											<TableLayout
+												android:id="@+id/scopeTab"
+												android:visibility="visible"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent">
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/hollow"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Hollow"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/canted"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Canted"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/reddot"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Red Dot"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/twox"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="2x"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:textColor="#FFFFFF"
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/eightx"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="8x"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/threex"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="3x"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/fourx"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="4x"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/sixx"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="6x"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+											</TableLayout>
+
+										</LinearLayout>
+
+									</HorizontalScrollView>
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/arsmg"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Auto and SMG"/>
+
+									<HorizontalScrollView
+										android:scrollbars="horizontal|vertical"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content">
+
+										<LinearLayout
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content">
+
+											<TableLayout
+												android:id="@+id/scopeAutoSMG"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent">
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/AUG"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="AUG"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/M762"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="M762"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/SCARL"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="SCAR-L"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/M416"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="M416"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/M16A4"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="M16A4"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Mk47Mutant"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="Mk47 Mutant"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/G36C"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="G36C"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/QBZ"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="QBZ"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/AKM"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="AKM"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Groza"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="Groza"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Bizon"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="Bizon"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/TommyGun"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="TommyGun"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/MP5K"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="MP5K"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/UMP"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="UMP"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Vector"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Vector"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Uzi"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="Uzi"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/DP28"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="DP28"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/M249"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="M249"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+											</TableLayout>
+
+										</LinearLayout>
+
+									</HorizontalScrollView>
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/snipers"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Snipers"/>
+
+									<TableLayout
+										android:id="@+id/sniperTab"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/AWM"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="AWM"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Kar98k"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Kar98k"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/M24"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="M24"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/SKS"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="SKS"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/SLR"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="SLR"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Mini14"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Mini14"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/QBU"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="QBU"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Win94"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Win94"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Mk14"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Mk14"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<CheckBox
+											android:textColor="#FFFFFF"
+											android:id="@+id/VSS"
+											android:layout_width="match_parent"
+											android:layout_height="wrap_content"
+											android:text="VSS"
+											android:buttonTint="#ADD8E6"/>
+
+									</TableLayout>
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/shotgunhaand"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Shotgun and Pan"/>
+
+									<HorizontalScrollView
+										android:scrollbars="horizontal|vertical"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content">
+
+										<LinearLayout
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content">
+
+											<TableLayout
+												android:id="@+id/shotgunTab"
+												android:visibility="visible"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent">
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/S12K"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="S12K"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/DBS"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="DBS"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/S686"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="S686"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/S1897"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="S1897"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Sickle"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="Sickle"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Machete"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="Machete"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/CrossBow"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="CrossBow"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Pan"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="Pan"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Crowbar"
+														android:layout_width="match_parent"
+														android:layout_height="wrap_content"
+														android:text="Cowbar"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+											</TableLayout>
+
+										</LinearLayout>
+
+									</HorizontalScrollView>
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/pistols"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Pistols"/>
+
+									<TableLayout
+										android:id="@+id/pistolTab"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/SawedOff"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="SawedOff"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/R1895"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="R1895"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Vz61"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Vz61"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/P92"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="P92"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/P18C"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="P18C"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/R45"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="R45"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/P1911"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="P1911"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/DesertEagle"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Desert Eagle"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+									</TableLayout>
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/ammo"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Ammo"/>
+
+									<TableLayout
+										android:id="@+id/ammoTab"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/sst"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="7.62"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/ffs"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="5.56"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/nmm"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="9mm"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/tzzMagnum"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="300Magnum"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Arrow"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Arrow"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/ffACP"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="45ACP"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/otGuage"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="12 Guage"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+									</TableLayout>
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/baghelmet"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Bag Helmet Vest"/>
+
+									<TableLayout
+										android:id="@+id/bagTab"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Baglvl1"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Bag L 1"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Baglvl2"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Bag L 2"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Baglvl3"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Bag L 3"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Helmetlvl1"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Helmet 1"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Helmetlvl2"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Helmet 2"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Helmetlvl3"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Helmet 3"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Vestlvl1"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Vest L 1"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Vestlvl2"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Vest L 2"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Vestlvl3"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Vest L 3"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+									</TableLayout>
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/healthkits"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Health Kits"/>
+
+									<TableLayout
+										android:id="@+id/healthkitTab"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Painkiller"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="PainKiller"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Adrenaline"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Adrenaline"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Bandage"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Bandage"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/FirstAidKit"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="FirstAidKit"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/EnergyDrink"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Energy Drink"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Medkit"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Medkit"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+									</TableLayout>
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/Throwables"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Throwables"/>
+
+									<TableLayout
+										android:id="@+id/ThrowablesTab"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent">
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Stung"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Stung"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Grenade"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent"
+												android:text="Grenade"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+										<TableRow
+											android:layout_width="match_parent"
+											android:layout_height="match_parent">
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Smoke"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Smoke"
+												android:buttonTint="#ADD8E6"/>
+
+											<CheckBox
+												android:textColor="#FFFFFF"
+												android:id="@+id/Molotov"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content"
+												android:text="Molotov"
+												android:buttonTint="#ADD8E6"/>
+
+										</TableRow>
+
+									</TableLayout>
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/others"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="5.0dp"
+										android:text="Other Items"/>
+
+									<HorizontalScrollView
+										android:scrollbars="horizontal|vertical"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content">
+
+										<LinearLayout
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content">
+
+											<TableLayout
+												android:id="@+id/otherTab"
+												android:layout_width="match_parent"
+												android:layout_height="match_parent">
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/FlashHiderAr"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Flash Hider Ar"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/ArCompensator"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Ar Compensator"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/CompensatorSMG"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Compensator SMG"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/TacticalStock"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Tactical Stock"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Duckbill"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Duckbill"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/FlashHiderSniper"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Flash Hider Snp"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/SuppressorSMG"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Suppressor SMG"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/HalfGrip"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Half Grip"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Choke"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Choke"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/StockMicroUZI"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Stock Micro UZI"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/SniperCompensator"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="SniperCompensator"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/SuppressorSniper"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Sup Sniper"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/SuppressorAr"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Suppressor Ar"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/ExQdSniper"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Ex.Qd.Sniper"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/QdSMG"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Qd.SMG"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/ExSMG"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Ex.SMG"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/QdSniper"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Qd.Sniper"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/ExSniper"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Ex.Sniper"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/ExAr"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Ex.Ar"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/ExQdAr"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Ex.Qd.Ar"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/QdAr"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Qd.Ar"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/ExQdSMG"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Ex.Qd.SMG"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/QuiverCrossBow"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Quiver CrossBow"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/BulletLoop"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Bullet Loop"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/ThumbGrip"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Thumb Grip"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/LaserSight"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Laser Sight"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/AngledGrip"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Angled Grip"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/LightGrip"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Light Grip"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/GasCan"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Gas Can"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/FlashHiderSMG"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Flash Hider SMG"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/VerticalGrip"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Vertical Grip"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/CheekPad"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="CheekPad"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+											</TableLayout>
+
+										</LinearLayout>
+
+									</HorizontalScrollView>
+
+
+
+								</LinearLayout>
+							</ScrollView>
+
+						</LinearLayout>
+						
+						<LinearLayout
+							android:orientation="vertical"
+							android:id="@+id/Vehicle"
+							android:padding="10.0dp"
+							android:visibility="gone"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+							<ScrollView
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent">
+								<LinearLayout
+									android:orientation="vertical"
+									android:id="@+id/GRAPHICS"
+									android:padding="8.0dip"
+									android:layout_width="fill_parent"
+									android:layout_height="fill_parent">
+
+
+									<TextView
+										android:textSize="18.0dp"
+										android:textStyle="bold"
+										android:textColor="#FFFFFF"
+										android:layout_gravity="center"
+										android:id="@+id/vehicle"
+										android:visibility="visible"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:layout_marginTop="10.0dp"
+										android:text="Vehicle"/>
+
+									<HorizontalScrollView
+										android:scrollbars="horizontal|vertical"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content">
+
+										<LinearLayout
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content">
+
+											<TableLayout
+												android:visibility="visible"
+												android:layout_width="match_parent"
+												android:layout_height="wrap_content">
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Buggy"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Buggy"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/UAZ"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="UAZ"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Trike"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Trike"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Bike"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Bike"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Dacia"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Dacia"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Jet"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Jet"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Boat"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Boat"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Bus"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Bus"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Mirado"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Mirado"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Scooter"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Scooter"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Rony"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Rony"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Snowbike"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Snowbike"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Snowmobile"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Snowmobile"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Tempo"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Tempo"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/Truck"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Truck"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+												<TableRow
+													android:layout_width="match_parent"
+													android:layout_height="match_parent">
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/MonsterTruck"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="Monster Truck"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/BRDM"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="BRDM"
+														android:buttonTint="#ADD8E6"/>
+
+													<CheckBox
+														android:textColor="#FFFFFF"
+														android:id="@+id/LadaNiva"
+														android:layout_width="match_parent"
+														android:layout_height="match_parent"
+														android:text="LadaNiva"
+														android:buttonTint="#ADD8E6"/>
+
+												</TableRow>
+
+											</TableLayout>
+
+										</LinearLayout>
+
+									</HorizontalScrollView>
+
+
+
+								</LinearLayout>
+							</ScrollView>
+
+						</LinearLayout>
+						
+						
+						
+						
+						
+						
+						
+						
+						<LinearLayout
+							android:orientation="vertical"
+							android:id="@+id/Sdk"
+							android:padding="10.0dp"
+							android:visibility="gone"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+							<ScrollView
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent">
+								<LinearLayout
+									android:orientation="vertical"
+									android:id="@+id/GRAPHICS"
+									android:padding="8.0dip"
+									android:layout_width="fill_parent"
+									android:layout_height="fill_parent">
+									
+									
+									
+
+									
+									
+									
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/LessRecoil"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Less Recoil"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Reduces The Recoil Upto 70%"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+										
+										
+										
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/ZeroRecoil"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Zero Recoil"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Reduces The Recoil Upto 100%"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+										
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/InstantHit"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Instant Hit"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Increases The Range of Bullet To Infinity"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+										
+										
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/FastShootInterval"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Fast Shoot"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Reduces The Time Between Per Bullet Shot"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+										
+										
+								<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/HitX"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="X Hit Effect"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Draws a Static X Hit Effect"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+										
+										
+										
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/SmallCrosshair"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Small CrossHair"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Reduces The Disturbance in CrossHair"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+										
+										
+								 <Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/FastSwitchWeapon"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Fast Weapon Switch"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Reduces The Time of Weapon Switch"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+										
+										
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/NoShake"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="No Shake"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Reduces The Camera Shake During Fire"
+										android:textSize="12sp"
+										android:textColor="#FFFFFF"/>
+										
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/magic"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Magic Bullet"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Dont kill hide player"
+										android:textSize="12sp"
+										android:textColor="#FF0000"/>
+										
+									<Switch
+										android:textSize="15.0dp"
+										android:textColor="#FFFFFF"
+										android:id="@+id/stands"
+										android:visibility="visible"
+										android:theme="@style/shootstyle"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:layout_marginTop="5.0dp"
+										style="@style/shootstyle"
+										android:text="Stand Scope"
+										android:buttonTint="#ADD8E6"/>
+
+
+									<TextView
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="Risky"
+										android:textSize="12sp"
+										android:textColor="#FF0000"/>
+
+										
+										
+									
+
+
+
+								</LinearLayout>
+								
+							</ScrollView>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+
+				</ScrollView>
+
+			</LinearLayout>
+
+
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</FrameLayout>
+
+
+
+
